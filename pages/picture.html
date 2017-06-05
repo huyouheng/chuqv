@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>picture</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="bootstrap.css" />
+<style>
+ *{margin:0;padding:0;}
+@media screen and (max-width:768px){
+#cang { display:none; }
+}
+
+header{
+        height:50px;
+        line-height:50px;
+    }
+#p1{
+    color:#999999;
+    float: right;
+}
+.nav1{
+    background-color:#eeeeee;
+    width:100%;
+    height:50px;
+    line-height:50px;
+
+}
+ul li{
+    float:left;
+    list-style:none;
+    width:100px;
+}
+.in1,.in2{
+    width:90px;
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+}
+.thumbnail img{
+    width:150px;
+    height:120px;
+}
+.hid{
+    display:block;
+    width:140px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+
+}
+</style>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">
+                    <p>全部图片</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 " id="cang">
+                   <p id ="p1">大小不超过5M，已开启图片水印 ?</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                    <button class="btn btn-success ">本地上传</button>
+                </div>
+            </div>
+        </div>
+    </header><!-- /header -->
+    <div class="container">
+    <div class="nav1">
+        <ul>
+        <li><input type="checkbox" name="quanxuan" id="all">全选</li>
+        <li><input type="button" value="移动分组" class="in1" disabled></li>
+        <li><input type="button" value="删除" class="in2" disabled></li>
+        </ul>
+    </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/11.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">picture1</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/110.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">picture2</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/12.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">picture3</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/fec6042814ce992ba84bc8dc7dd9e482.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">fec6042814ce992ba84hafhkj788746</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/c0accc78754179d4ae7b64b4df2a659e.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">c0accc78754179d4ae7728hfdsbn</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/77a2153eb0f45c067e57111a8f254e93.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">77a2153eb0f45c067egjsh443</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/74039a320f9265b03f116c3343b83d61.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">74039a320f9265b03fxdgs44gg</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/120.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">42c276a373dc822b371gjsh748</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/245ca782bd6c0978a391fa1eee7dbc2f.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">245ca782bd6c0978a391sdgd44</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/1b6a086857a52f87d98ca2a6686503e6.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">1b6a086857a52f87d98c33ddd</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/29a3ff30260f922ec2b695e4b76eec58.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">picture11</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <img src="image/41d189bf01181af74a2f18b6ca8fecea.jpg" >
+          <div class="caption">
+            <input type="checkbox" name="check"><span class="hid">picture12</span>
+            <p><span class="glyphicon glyphicon-pencil"></span>
+            <span class="glyphicon glyphicon-transfer"></span>
+            <span class="glyphicon glyphicon-trash"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<script>
+$(function(){
+  /* if(document.body.scrollWidth < 768px){
+      document.getElementById('cang').style.display = 'none';
+    }*/
+
+
+})
+</script>
+<script type="text/javascript" src="jquery-1.10.1.js" ></script>
+<script type="text/javascript" src="bootstrap.js" ></script>
+</body>
+</html>
